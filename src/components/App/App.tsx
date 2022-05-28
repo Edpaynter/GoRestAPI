@@ -15,7 +15,7 @@ const App = () => {
       <StyledEngineProvider injectFirst>
         <BrowserRouter>
           <Routes>
-            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/user/:id" element={<ViewUserCard />} />
             <Route path="*" element={<PageNotFound />} />
